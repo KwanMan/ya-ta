@@ -1,11 +1,18 @@
 {
-  "name": "twitter-focus",
+  "name": "ya-ta",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
-    "react-scripts": "2.0.5"
+    "@blueprintjs/core": "^3.7.0",
+    "classnames": "^2.2.6",
+    "date-fns": "^2.0.0-alpha.24",
+    "lodash": "^4.17.11",
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0",
+    "react-scripts": "2.0.5",
+    "the-platform": "^0.8.0",
+    "tiny-atom": "../tiny-atom/dist",
+    "uuid": "^3.3.2"
   },
   "scripts": {
     "start": "react-scripts start",

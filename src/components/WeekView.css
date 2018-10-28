@@ -1,0 +1,10 @@
+.WeekView {
+  display: flex;
+  justify-content: center;
+}
+
+.WeekView > div {
+  flex: 1 1 0;
+  min-width: 0;
+  align-self: flex-start;
+}

@@ -1,0 +1,21 @@
+.DayView {
+  margin: 8px 0 8px 8px;
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+}
+
+.DayView:last-of-type {
+  margin-right: 8px;
+}
+
+.TodoItem {
+  text-align: left;
+  padding-left: 8px;
+  font-size: 1.25em;
+}
+
+.TodoItem--done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
